@@ -129,7 +129,7 @@ function App() {
         </div>
       </div>
 
-      {/* --- FAQ Section --- */}
+      {/* FAQ Section */}
       <div className="text-center mb-20">
         <h2 className="text-[#4F46E5] text-xl font-semibold mb-6 ">
           Frequently asked questions
