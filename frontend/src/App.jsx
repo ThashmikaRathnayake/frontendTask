@@ -5,8 +5,27 @@ import HeoroImage from './assets/heroimage.png'
 import Button from './components/Button'
 import ServiceIcon1 from './assets/serviceicon1.png'
 import ServiceIcon2 from './assets/serviceicon2.png'
+import Accordion from './components/Accordion'
+
 
 function App() {
+  const faqItems = [
+    {
+      question: 'Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.',
+    },
+    {
+      question: 'Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.',
+    },
+    {
+      question: 'Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.',
+    },
+  ];
   return (
     <>
       <Navbar />
@@ -108,6 +127,14 @@ function App() {
             className='w-[200px] sm:w-[240px] md:w-[414px] h-auto md:h-[414px]'
           />
         </div>
+      </div>
+
+      {/* --- FAQ Section --- */}
+      <div className="text-center mb-20">
+        <h2 className="text-[#4F46E5] text-xl font-semibold mb-6 ">
+          Frequently asked questions
+        </h2>
+        <Accordion items={faqItems} />
       </div>
 
       <Footer />
