@@ -3,8 +3,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import HeoroImage from './assets/heroimage.png'
 import Button from './components/Button'
-import ServiceIcon1 from './assets/serviceicon1.png'
-import ServiceIcon2 from './assets/serviceicon2.png'
+import ServiceIcon1 from './assets/serviceIcon1.png'
+import ServiceIcon2 from './assets/serviceIcon2.png'
 import Accordion from './components/Accordion'
 
 
